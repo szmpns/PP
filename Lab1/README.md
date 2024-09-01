@@ -1,10 +1,11 @@
 # [Zgadnij liczbę / Guess the Number](./Zgadnij_liczbe.c)
 
 **PL:**  
-Program losuje liczbę \(0 \leq X < 100\). Napisz funkcję, która zgaduje wartość \(X\). W pętli losujemy \(n\) z przedziału \([0, 100)\). Jeżeli \(X = n\) zgadliśmy \(X\). Jeżeli nie, na podstawie wartości \(X\) i \(n\) ograniczamy przedział, z którego losujemy kolejne \(n\).
+Program losuje liczbę `0 ≤ X < 100`. Napisz funkcję, która zgaduje wartość `X`. W pętli losujemy `n` z przedziału `[0, 100)`. Jeżeli `X = n`, zgadliśmy `X`. Jeżeli nie, na podstawie wartości `X` i `n` ograniczamy przedział, z którego losujemy kolejne `n`.
 
 **ENG:**  
-The program generates a random number \(0 \leq X < 100\). Write a function that guesses the value of \(X\). In a loop, we randomly select \(n\) from the range \([0, 100)\). If \(X = n\), we have guessed \(X\). If not, based on the values of \(X\) and \(n\), we narrow the range from which we draw the next \(n\).
+The program generates a random number `0 ≤ X < 100`. Write a function that guesses the value of `X`. In a loop, `n` is randomly selected from the range `[0, 100)`. If `X = n`, we have guessed `X`. If not, based on the values of `X` and `n`, we narrow the range from which the next `n` is selected.
+
 
 # [Monte Carlo / Monte Carlo](./Monte_Carlo.c)
 
